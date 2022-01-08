@@ -19,8 +19,8 @@ pip3 install -r requirements.txt
 python3 sample.py \
 	--input-dir output \
 	--output generated/sample.txt \
-  --seq-length 12 \
-  --num-samples 10000000
+  	--seq-length 12 \
+  	--num-samples 10000000
 ```
 ## Train your own models
 
