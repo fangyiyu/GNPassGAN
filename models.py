@@ -73,12 +73,6 @@ def parse_args():
                         dest='critic_iters',
                         help='The number of discriminator weight updates per generator update (default: 10)')
     
-    parser.add_argument('--lambda', '-p',
-                        type=int,
-                        default=10,
-                        dest='lamb',
-                        help='The gradient penalty lambda hyperparameter (default: 10)')
-    
     return parser.parse_args()
 args = parse_args()
 
