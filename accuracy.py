@@ -4,9 +4,6 @@ import numpy as np
 import pickle
 
 
-'''
-python3 accuracy.py --input-generated generated/gnpassgan/10/180000iter/8.txt --input-test data/test_rockyou10.txt
-'''
 
 def parse_args():
     parser = argparse.ArgumentParser()
