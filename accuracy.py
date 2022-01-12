@@ -42,31 +42,5 @@ def accuracy(path_generated, path_test):
 
 accuracy(args.input_generated, args.input_test)
 
-'''
-Command line to generate a file for all duplicates: comm -12 <(sort generated/gnpassgan/200000iter/generated9.txt) <(sort data/test_rockyou10.txt) > dups.txt
-'''
 
-# # for larger dataset (10 to the power of 9 or more)
-# def accuracy(path_generated, path_test):
-#     count = 0
-#     overlap = []
-#     generated_file = open(path_generated, 'r')
-#     test_data = open(path_test, 'r').readlines()
-#     print("These passwords are correctly guessed:")
-#     while True:
-#         count += 1
-#         # Get next line from file
-#         line = generated_file.readline()
-#         if line in test_data:
-#             overlap.append(line)
-#             print("Line{}: {}".format(len(overlap), line.strip()))
-#         # if line is empty
-#         # end of file is reached
-#         if not line:
-#             break
-#     generated_file.close()
-#     print("{} passwords are correctly guessed.".format(len(overlap)) )
-#     result = round(float(len(overlap))/len(test_data) * 100, 4)
-#     return print('The guessing accuracy is {} %'.format(result))
-# accuracy(args.input_generated, args.input_test)
     
