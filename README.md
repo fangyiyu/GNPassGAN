@@ -25,7 +25,7 @@ python3 sample.py \
 ## Train your own models
 
 1) Prepare your own dataset for training first.
-2) Train for 200,000 iterations, saving checkpoints every 5000.
+2) Train for 200,000 iterations, saving checkpoints every 10,000.
 3) Use the default hyperparameters from the paper for training.
 ```
 python3 models.py --training-data data/YOUR TRAINING DATA --output-dir output
