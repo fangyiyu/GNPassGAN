@@ -1,9 +1,9 @@
 # GNPassGAN
 
-Repository for the submission review of paper "Creating Indistinguishable Honeywords With Improved Generative Adversarial Networks."  
+Repository for the review of paper "Creating Indistinguishable Honeywords With Improved Generative Adversarial Networks."  
 GNPassGAN is an offline password guessing tool based on PassGAN with the implementation of Gradient Normalization in Pytorch 1.10.
 
-The model from PassGAN is taken from [_Improved Training of Wasserstein GANs_](https://arxiv.org/abs/1704.00028) and it is a pytorch version of the  [improved_wgan_training](https://github.com/caogang/wgan-gp).
+The model used in PassGAN is inspired from paper [_Improved Training of Wasserstein GANs_](https://arxiv.org/abs/1704.00028) and its pytorch version implementation [improved_wgan_training](https://github.com/caogang/wgan-gp).
 
 ## Install dependencies
 
