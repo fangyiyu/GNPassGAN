@@ -34,5 +34,7 @@ python3 models.py --training-data data/YOUR TRAINING DATA --output-dir output
 ## Check matching accuracy
 ```bash
 # change data path
-python3 accuracy.py --input-generated generated/gnpassgan/10/180000iter/8.txt --input-test data/test_rockyou10.txt
+python3 accuracy.py \
+	--input-generated generated/gnpassgan/10/180000iter/8.txt \
+	--input-test data/test_rockyou10.txt
 ```
