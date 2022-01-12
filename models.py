@@ -1,4 +1,4 @@
-# Reference: https://github.com/fangyiyu/GNGAN-PyTorch (How to integrate Gradient Normalization into your work?)
+# Reference: https://github.com/fangyiyu/GNGAN-PyTorch
 import torch
 import tflib as lib
 import os, sys
