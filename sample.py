@@ -44,7 +44,7 @@ def parse_args():
                         type=int,
                         default=12,
                         dest='seq_length',
-                        help='The maximum password length. Use the same value that you did for training. (default: 10)')
+                        help='The maximum password length. Use the same value that you did for training.')
     
     parser.add_argument('--layer-dim', '-d',
                         type=int,
