@@ -30,7 +30,7 @@ def parse_args():
 
     parser.add_argument('--num-samples', '-n',
                         type=int,
-                        default=100000000,
+                        default=50000,
                         dest='num_samples',
                         help='The number of password samples to generate (default: 100000000)')
 
@@ -42,7 +42,7 @@ def parse_args():
     
     parser.add_argument('--seq-length', '-l',
                         type=int,
-                        default=20,
+                        default=12,
                         dest='seq_length',
                         help='The maximum password length. Use the same value that you did for training. (default: 10)')
     
