@@ -1,6 +1,6 @@
 # GNPassGAN
 
-This repository is created for the review process of paper "GNPassGAN: Improved Generative Adversarial Networks For Trawling Offline Password Guessing"  for ASSS 2022.
+This repository is created for the paper "GNPassGAN: Improved Generative Adversarial Networks For Trawling Offline Password Guessing"  published at ASSS 2022.
 
 GNPassGAN is an offline password guessing tool based on PassGAN with the implementation of [Gradient Normalization](https://github.com/basiclab/GNGAN-PyTorch) in Pytorch 1.10.
 
