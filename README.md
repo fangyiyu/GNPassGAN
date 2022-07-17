@@ -39,3 +39,14 @@ python3 accuracy.py \
 	--input-generated generated/gnpassgan/10/180000iter/8.txt \
 	--input-test data/test_rockyou10.txt
 ```
+
+## Citation
+If you find our work is relevant to your research, please cite:
+```bash
+@inproceedings{yugnpassgan,
+author={Yu, Fangyi and Martin, Miguel Vargas},
+booktitle={2022 IEEE European Symposium on Security and Privacy Workshops (EuroS&PW)},
+title={GNPassGAN: Improved Generative Adversarial Networks For Trawling Offline Password Guessing},
+year={2022},
+pages={10-18},
+doi={10.1109/EuroSPW55150.2022.00009}}
